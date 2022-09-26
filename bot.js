@@ -32,10 +32,6 @@ client.on('messageCreate', (message) => {
 		    name: 'image.jpg'
 		  }]
 		})
-	} else if (message.content.includes('Landon')) {
-		message.channel.send('Slip and land on deez nutz! :peanuts:')
-	} else if (message.content.includes('kjøh') || message.content.includes('Kjøh')) {
-		message.channel.send('KJØH!')
 	} else if (message.content === '!coinflip') {
 		message.channel.send(Math.random() >= 0.5 ? "Heads" : "Tails")
 	} else if (message.content === "!quote") {
